@@ -49,6 +49,7 @@ struct SetGameView: View {
                         }
                         .padding(7)
                         .transition(.offset(self.randomOffset))
+                        // rotate if matched
                         .rotation3DEffect(Angle.degrees(card.isCardMatched ? 360 : 0), axis: (0,1,0))
                     }
                     .onAppear(perform: {
