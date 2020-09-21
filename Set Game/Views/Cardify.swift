@@ -1,6 +1,6 @@
 //
 //  Cardify.swift
-//  Memorize
+//  Set Game
 //
 //  Created by Marlen Mynzhassar on 9/6/20.
 //  Copyright © 2020 Marlen Mynzhassar. All rights reserved.

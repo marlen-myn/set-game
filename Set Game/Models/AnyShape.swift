@@ -2,8 +2,8 @@
 //  AnyShape.swift
 //  Set Game
 //
-//  Created by James Byrne on 07/07/2020.
-//  Copyright © 2020 jamesbyrne. All rights reserved.
+//  Created by Marlen Mynzhassar on 9/13/20.
+//  Copyright © 2020 Marlen Mynzhassar. All rights reserved.
 //
 
 import SwiftUI

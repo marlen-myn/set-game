@@ -1,6 +1,6 @@
 //
 //  Array+Identifiable.swift
-//  Memorize
+//  Set Game
 //
 //  Created by Marlen Mynzhassar on 8/31/20.
 //  Copyright © 2020 Marlen Mynzhassar. All rights reserved.
