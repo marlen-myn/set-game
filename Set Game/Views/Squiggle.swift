@@ -2,8 +2,8 @@
 //  Squiggle.swift
 //  Set Game
 //
-//  Created by Ulrich Braß on 06.06.20.
-//  Copyright © 2020 Ulrich Braß. All rights reserved.
+//  Created by Marlen Mynzhassar on 9/13/20.
+//  Copyright © 2020 Marlen Mynzhassar. All rights reserved.
 //
 
 import SwiftUI
