@@ -2,8 +2,7 @@
 //  StripedPatternBuilder.swift
 //  Set Game
 //
-//  Created by Marlen Mynzhassar on 9/6/20.
-//  Copyright © 2020 Marlen Mynzhassar. All rights reserved.
+//  CCreated by Valerie 👩🏼‍💻 on 14/07/2020.
 //
 
 import SwiftUI
