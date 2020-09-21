@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SetGameView.swift
 //  Set Game
 //
 //  Created by Marlen Mynzhassar on 9/13/20.
@@ -8,7 +8,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SetGameView: View {
+    @ObservedObject var viewModel: SetGameViewModel
+
     var body: some View {
         Text("Hello, World!")
     }
@@ -16,6 +18,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let game = SetGameViewModel()
+        return SetGameView(viewModel: game)
     }
 }
