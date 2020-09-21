@@ -1,6 +1,6 @@
 //
-//  SquiggleLayout.swift
-//  SoloSet
+//  Squiggle.swift
+//  Set Game
 //
 //  Created by Ulrich Braß on 06.06.20.
 //  Copyright © 2020 Ulrich Braß. All rights reserved.
@@ -15,6 +15,7 @@ import SwiftUI
 // That func will create and return a Path that draws anything we want. Path has many functions to support drawing
 //
 
+// custom shape
 struct Squiggle : Shape {
     
     func path(in rect : CGRect) -> Path { // rect is the space offered for drawing

@@ -1,6 +1,6 @@
 //
-//  StripedPattern.swift
-//  SetGame
+//  StripedPatternBuilder.swift
+//  Set Game
 //
 //  Created by Valerie 👩🏼‍💻 on 14/07/2020.
 //
