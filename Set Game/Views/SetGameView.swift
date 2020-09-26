@@ -52,13 +52,13 @@ struct SetGameView: View {
                         // rotate if matched
                         .rotation3DEffect(Angle.degrees(card.isCardMatched ? 360 : 0), axis: (0,1,0))
                     }
-                    .onAppear(perform: {
-                        withAnimation(.easeInOut(duration: 2)) {
-                            self.viewModel.startNewGame()
-                        }
-                    })
                 }
             }
+            .onAppear(perform: {
+                withAnimation(.easeInOut(duration: 2)) {
+                    self.viewModel.startNewGame()
+                }
+            })
             
             Divider()
                 .padding()
@@ -85,7 +85,7 @@ struct SetGameView: View {
                 }
                 
                 Button(action:{
-                    withAnimation(.easeInOut(duration: 0.75)) {
+                    withAnimation(.easeInOut(duration: 2)) {
                         viewModel.startNewGame() // creating a new game
                     }
                 }) {
